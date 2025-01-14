@@ -5,9 +5,8 @@ import sqlalchemy
 
 # Define a function to read data from the Airflow metadata database
 def read_airflow_db():
-    # Database connection string
-    # username: username, password: password
-    db_url = "postgresql+psycopg2://username:password@localhost:5432/airflow"
+    # Database connection string for SQLite
+    db_url = "sqlite:////opt/airflow/airflow.db"
     
     # Create a connection to the database
     engine = sqlalchemy.create_engine(db_url)

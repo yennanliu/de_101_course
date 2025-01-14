@@ -18,8 +18,10 @@ with DAG(
     t3 = DummyOperator(task_id="task_3")
     t4 = DummyOperator(task_id="task_4")
     t5 = DummyOperator(task_id="task_5")
+    t6 = DummyOperator(task_id="task_6")
     
     # Define dependencies
     t1 >> t2 >> t3  # Task 1 -> Task 2 -> Task 3
     t3 >> t4  # Task 3 -> Task 4
     t2 >> t5  # Task 2 -> Task 5
+    t5 >> t6
