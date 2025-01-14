@@ -1,5 +1,14 @@
 # Lab 1
 
+```
+├── README.md
+├── airflow_intro.md
+├── dags - ETL code
+├── docker-compose.yml - file build airflow app
+├── logs - logging files
+└── plugins - extra libraries can be import to airflow
+```
+
 <details>
 <summary>Run via Docker</summary>
 
@@ -23,7 +32,7 @@ sudo ln -s /Applications/Docker.app/Contents/Resources/cli-plugins/docker-compos
 
 cd lab_1
 
-mkdir dags logs pluginss
+mkdir dags logs plugins
 
 # run
 docker-compose up
