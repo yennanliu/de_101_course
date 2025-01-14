@@ -12,6 +12,12 @@
 <details>
 <summary>Run via Docker</summary>
 
+## Get the code
+
+```bash
+git clone https://github.com/yennanliu/de_101_course.git
+```
+
 ## Install (Docker)
 ```bash
 
