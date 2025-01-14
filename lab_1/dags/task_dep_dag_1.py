@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator
+from airflow.operators.bash import BashOperator
 from datetime import datetime
 
 # https://airflow.apache.org/docs/apache-airflow/stable/tutorial/fundamentals.html#tasks
@@ -14,7 +15,13 @@ with DAG(
     
     # Define tasks
     t1 = DummyOperator(task_id="task_1")
-    t2 = DummyOperator(task_id="task_2")
+    #t2 = DummyOperator(task_id="task_2")
+    t2 = BashOperator(
+    task_id="sleep",
+    depends_on_past=False,
+    bash_command="sleep 5",
+    retries=3,
+    )
     t3 = DummyOperator(task_id="task_3")
     t4 = DummyOperator(task_id="task_4")
     t5 = DummyOperator(task_id="task_5")
