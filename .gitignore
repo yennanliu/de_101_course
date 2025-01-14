@@ -1,2 +1,4 @@
 .DS_Store
 lab_1/dags/__pycache__
+lab_1/logs
+lab_1/db
