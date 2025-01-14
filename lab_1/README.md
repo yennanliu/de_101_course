@@ -58,6 +58,14 @@ pip install "apache-airflow[celery]==2.10.4" --constraint "https://raw.githubuse
 
 </details>
 
+
+## Dag
+- hello_world_dag.py: 基本的dag
+- load_conf_dag.py: dag load config file
+- local_custom_class_dag.py: dag load class
+- task_dep_dag_1.py, task_dep_dag_2.py : task dep demo
+
+
 ## Endpoint
 - http://localhost:8080
 	- user: airflow
