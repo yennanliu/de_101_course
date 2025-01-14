@@ -1,0 +1,25 @@
+[2025-01-14T12:46:32.484+0000] {processor.py:161} INFO - Started process (PID=29) to work on /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:46:32.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_conf_dag.py for tasks to queue
+[2025-01-14T12:46:32.486+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:46:32.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:46:32.513+0000] {processor.py:840} INFO - DAG(s) 'load_conf_dag' retrieved from /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:46:32.640+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:46:32.640+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:load_conf_dag
+[2025-01-14T12:46:32.666+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:46:32.666+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:load_conf_dag
+[2025-01-14T12:46:32.705+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:46:32.705+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:load_conf_dag
+[2025-01-14T12:46:32.706+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:46:32.706+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-01-14T12:46:32.721+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:46:32.721+0000] {dag.py:3055} INFO - Creating ORM DAG for load_conf_dag
+[2025-01-14T12:46:32.729+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:46:32.728+0000] {dag.py:3820} INFO - Setting next_dagrun for load_conf_dag to 2025-01-13T00:00:00+00:00, run_after=2025-01-14T00:00:00+00:00
+[2025-01-14T12:46:32.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_conf_dag.py took 0.306 seconds
+[2025-01-14T12:47:06.785+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:47:06.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_conf_dag.py for tasks to queue
+[2025-01-14T12:47:06.796+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:47:06.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:47:06.835+0000] {processor.py:840} INFO - DAG(s) 'load_conf_dag' retrieved from /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:47:06.905+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:47:06.905+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-01-14T12:47:06.959+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:47:06.959+0000] {dag.py:3820} INFO - Setting next_dagrun for load_conf_dag to 2025-01-13T00:00:00+00:00, run_after=2025-01-14T00:00:00+00:00
+[2025-01-14T12:47:07.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_conf_dag.py took 0.282 seconds
+[2025-01-14T12:47:37.624+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:47:37.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_conf_dag.py for tasks to queue
+[2025-01-14T12:47:37.629+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:47:37.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:47:37.652+0000] {processor.py:840} INFO - DAG(s) 'load_conf_dag' retrieved from /opt/airflow/dags/load_conf_dag.py
+[2025-01-14T12:47:37.675+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:47:37.674+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2025-01-14T12:47:37.693+0000] {logging_mixin.py:188} INFO - [2025-01-14T12:47:37.693+0000] {dag.py:3820} INFO - Setting next_dagrun for load_conf_dag to 2025-01-13T00:00:00+00:00, run_after=2025-01-14T00:00:00+00:00
+[2025-01-14T12:47:37.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_conf_dag.py took 0.109 seconds

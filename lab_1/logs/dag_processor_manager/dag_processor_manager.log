@@ -1,0 +1,53 @@
+[2025-01-14T12:46:28.017+0000] {manager.py:469} INFO - Processing files using up to 1 processes at a time 
+[2025-01-14T12:46:28.018+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-01-14T12:46:28.019+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-01-14T12:46:28.019+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-01-14T12:46:28.036+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-14T12:46:28.529+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_world_dag.py                           0           0
+/opt/airflow/dags/load_conf_dag.py                             0           0
+/opt/airflow/dags/query_db_dag.py                              0           0
+/opt/airflow/dags/task_dep_dag_1.py                            0           0
+/opt/airflow/dags/task_dep_dag_2.py                            1           0  0.41s           2025-01-14T12:46:28
+================================================================================
+[2025-01-14T12:46:59.185+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_world_dag.py                           1           0  0.40s           2025-01-14T12:46:33
+/opt/airflow/dags/load_conf_dag.py                             1           0  0.40s           2025-01-14T12:46:32
+/opt/airflow/dags/query_db_dag.py                              1           0  0.30s           2025-01-14T12:46:31
+/opt/airflow/dags/task_dep_dag_1.py                            1           0  0.41s           2025-01-14T12:46:30
+/opt/airflow/dags/task_dep_dag_2.py                            1           0  0.24s           2025-01-14T12:46:59
+================================================================================
+[2025-01-14T12:47:29.857+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_world_dag.py                           1           0  0.12s           2025-01-14T12:47:08
+/opt/airflow/dags/load_conf_dag.py                             1           0  0.33s           2025-01-14T12:47:07
+/opt/airflow/dags/query_db_dag.py                              1           0  0.21s           2025-01-14T12:47:05
+/opt/airflow/dags/task_dep_dag_1.py                            1           0  0.31s           2025-01-14T12:47:02
+/opt/airflow/dags/task_dep_dag_2.py                            1           0  0.28s           2025-01-14T12:47:29
+================================================================================
+[2025-01-14T12:48:00.201+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hello_world_dag.py                           1           0  0.21s           2025-01-14T12:47:38
+/opt/airflow/dags/load_conf_dag.py                             1           0  0.22s           2025-01-14T12:47:37
+/opt/airflow/dags/query_db_dag.py                              1           0  0.44s           2025-01-14T12:47:36
+/opt/airflow/dags/task_dep_dag_1.py                            1           0  0.23s           2025-01-14T12:47:32
+/opt/airflow/dags/task_dep_dag_2.py                            1           0  0.22s           2025-01-14T12:48:00
+================================================================================

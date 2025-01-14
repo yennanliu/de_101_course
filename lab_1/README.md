@@ -17,13 +17,6 @@
 
 # install docker
 # https://docs.docker.com/desktop/setup/install/mac-install/
-
-# fix docker-compose (mac user)
-
-# https://docs.docker.com/compose/install/
-
-sudo rm /usr/local/bin/docker-compose
-sudo ln -s /Applications/Docker.app/Contents/Resources/cli-plugins/docker-compose /usr/local/bin/docker-compose=
 ```
 
 ## Run  (Docker)
@@ -31,6 +24,10 @@ sudo ln -s /Applications/Docker.app/Contents/Resources/cli-plugins/docker-compos
 ```bash
 
 cd lab_1
+
+chmod +x init.sh
+
+./init.sh
 
 mkdir dags logs plugins
 
@@ -63,5 +60,5 @@ pip install "apache-airflow[celery]==2.10.4" --constraint "https://raw.githubuse
 
 ## Endpoint
 - http://localhost:8080
-	- user: admin
-	- password: admin
+	- user: airflow
+	- password: airflow
