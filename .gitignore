@@ -2,3 +2,4 @@
 lab_1/dags/__pycache__
 lab_1/logs
 lab_1/db
+lab_1/db/airflow.db
