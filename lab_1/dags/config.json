@@ -1,0 +1,4 @@
+{
+  "param1": "Hello, Airflow with Config!",
+  "param2": 42
+}
