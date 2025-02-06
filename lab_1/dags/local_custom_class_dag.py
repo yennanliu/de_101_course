@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from my_custom_class import MyCustomClass  # Import the custom class
+from my_custom_class import MyCustomClass, my_func  # Import the custom class
 
 # Define a function to instantiate the custom class and run its method
 def run_custom_class_method():
@@ -24,5 +24,10 @@ with DAG(
         task_id="run_custom_method_task",
         python_callable=run_custom_class_method,  # Call the function that runs the class method
     )
+
+    run_custom_method_task_2 = PythonOperator(
+        task_id="run_custom_method_task_2",
+        python_callable=my_func,  # Call the function that runs the class method
+    )
     
-    run_custom_method_task
+    run_custom_method_task  >> run_custom_method_task_2

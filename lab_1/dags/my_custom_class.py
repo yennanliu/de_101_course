@@ -6,3 +6,7 @@ class MyCustomClass:
 
     def greet(self):
         print(f">>> (MyCustomClass) Hello, {self.name}! Welcome to the Airflow DAG.")
+
+
+def my_func(x, y):
+    return x+y

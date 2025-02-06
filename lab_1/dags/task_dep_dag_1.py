@@ -29,6 +29,18 @@ with DAG(
     
     # Define dependencies
     t1 >> t2 >> t3  # Task 1 -> Task 2 -> Task 3
+    # t3 is t4's upstream
+    # t4 is t3's downstream
+    # t4.set_upstream(t3)
+    # t3.set_downstream(t4)
     t3 >> t4  # Task 3 -> Task 4
     t2 >> t5  # Task 2 -> Task 5
     t5 >> t6
+
+    # sub tasks = [t2, t3, t4]
+    # how to setup their parent task (t1) at once ?
+    # t1 >> t2
+    # t1 >> t3
+    # t1 >> t4
+    # t1.setdownstream([t1, t2, t4])
+    
