@@ -193,9 +193,12 @@ Schema Characteristics
 1. 假設有ㄧ個網上程式碼測驗平台(e.g. leetcode.com), 用戶可以撰寫, 提交程式碼
 系統會評鑑並產出程式碼正確與否還有效率, 根據以上敘述, 設計DB schema (Entity Relationship Diagram (ERD))
 
+2. 假設有ㄧ個音樂平台(e.g. youtube music), 用戶可以聽收聽音樂 上傳音樂 建立播放清單, 根據以上敘述, 設計DB schema (Entity Relationship Diagram (ERD))
 
-2. 假設有ㄧ個音樂平台(e.g. youtube music), 根據以上敘述, 設計DB schema (Entity Relationship Diagram (ERD))
 
+## Code
+
+- [01_basic_concepts.sql](../02_ecommerce_model.sql)
 
 ## Ref
 

@@ -34,6 +34,10 @@
 <p align="center"><img src ="../pic/dw_detail_layer.png" ></p>
 
 
+## Code
+
+- [01_basic_concepts.sql](../03_datamart_warehouse.sql)
+
 ## Ref
 - https://ithelp.ithome.com.tw/articles/10357605 - 3 layer of DW
 	- Data lake -> data warehouse -> data mart

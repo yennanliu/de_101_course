@@ -15,4 +15,8 @@
 - PK
 - SQL vs noSQL
 
+## Code
+
+- [01_basic_concepts.sql](../01_basic_concepts.sql)
+
 ## Ref
