@@ -180,12 +180,18 @@ Schema Characteristics
 
 
 5.  Star Schema
-在Star Schema中，事實表位於中央，維度表環繞在周圍，幾乎一次JOIN 就能得到所需要的資訊，看起來像是星星的形狀。
+- 在Star Schema中，事實表位於中央，維度表環繞在周圍，幾乎一次JOIN 就能得到所需要的資訊，看起來像是星星的形狀。
 
 6. Snowflake Schema
-事實表一樣位於中央，維度表環繞周圍，與Star Schema不同的地方是可能會有多層的維度表，長得像是雪花一樣。
+- 事實表一樣位於中央，維度表環繞周圍，與Star Schema不同的地方是可能會有多層的維度表，長得像是雪花一樣。
 
 <p align="center"><img src ="../pic/snowflake_star.png" ></p>
+
+<p align="center"><img src ="../pic/star.png" ></p>
+
+<p align="center"><img src ="../pic/snowflake.png" ></p>
+
+<p align="center"><img src ="../pic/fact_constellation_schema.png" ></p>
 
 
 ## Practice

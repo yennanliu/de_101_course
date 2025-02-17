@@ -9,11 +9,16 @@
 - data cube
 	- https://learn.microsoft.com/zh-tw/analysis-services/multidimensional-models/olap-logical/logical-architecture-overview-analysis-services-multidimensional-data?view=asallproducts-allversions
 	- https://blog.csdn.net/Forlogen/article/details/88634117
+
+<p align="center"><img src ="../pic/data_cube.png" ></p>
+
 - data granularity
 - Normalization VS Denormalization
-- Index
-- PK
-- SQL vs noSQL
+- DB basics
+	- Index
+	- PK
+	- SQL vs NoSQL
+	- ...
 
 ## Code
 
