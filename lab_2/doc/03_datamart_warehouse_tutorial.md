@@ -36,7 +36,8 @@
 
 ## Code
 
-- [01_basic_concepts.sql](../03_datamart_warehouse.sql)
+- [03_datamart_warehouse.sql](../03_datamart_warehouse.sql)
+- [03_datamart_warehouse_pt2.sql](../03_datamart_warehouse_pt2.sql)
 
 ## Ref
 - https://ithelp.ithome.com.tw/articles/10357605 - 3 layer of DW

@@ -198,7 +198,7 @@ Schema Characteristics
 
 ## Code
 
-- [01_basic_concepts.sql](../02_ecommerce_model.sql)
+- [02_ecommerce_model.sql](../02_ecommerce_model.sql)
 
 ## Ref
 

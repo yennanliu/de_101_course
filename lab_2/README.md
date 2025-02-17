@@ -31,10 +31,8 @@ This tutorial demonstrates various approaches to database modeling for analytics
    - Resource Usage Monitoring
 
 ## Prerequisites
-- MySQL 8.0 or higher
-- Basic SQL knowledge
-- Understanding of database concepts
 
+- Install MySQL 8.0 or higher
 
 ## Book/Ref
 - https://github.com/yennanliu/knowledge_base_repo/tree/master/book/data_engeering
