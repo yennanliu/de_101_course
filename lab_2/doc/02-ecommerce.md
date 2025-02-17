@@ -165,6 +165,9 @@ Schema Characteristics
         - SCD Type 4: 歷史紀錄表
             - pros: 有效率查找數據, 較少的儲存空間增加
             - cons: 需要維護二個表
+                - address, address_history
+        - others
+            - users, user_extend_attr(json)
         - https://learn.microsoft.com/zh-tw/fabric/data-warehouse/dimensional-modeling-dimension-tables#scd-type-3
 
 4. Change Data Capture (CDC)
@@ -175,6 +178,8 @@ Schema Characteristics
 - 方案一：定期做資料快照
 - 方案二：請RD增加紀錄
 - 方案三：分析log，抓RD API 呼叫的紀錄
+    - BE log
+    - [DEBUG] 20250101,uid-001,ORDER,prod_01,100,....
 - 方案四：在 OLTP 設置 Trigger
 - 方案五：透過第三方工具，解析OLTP 的 DML log
 
@@ -195,6 +200,8 @@ Schema Characteristics
 
 
 ## Practice
+
+(OLAP)
 
 1. 假設有ㄧ個網上程式碼測驗平台(e.g. leetcode.com), 用戶可以撰寫, 提交程式碼
 系統會評鑑並產出程式碼正確與否還有效率, 根據以上敘述, 設計DB schema (Entity Relationship Diagram (ERD))
