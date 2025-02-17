@@ -12,3 +12,8 @@
  - env setup
  - code example
  
+ ## Lab 2 OLAP Modeling
+ - intro
+ - core concept
+ - example
+ 
