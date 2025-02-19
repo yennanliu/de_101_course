@@ -153,22 +153,22 @@ Schema Characteristics
 3. 緩慢變化維度（Slowly Changing Dimension, SCD)
 
 有些維度隨著時間會發生變化, e.g.：客戶地址變更，處理維度表中資料變化的是一個挑戰，不同情境需要不同處理策略，需考量未來資料的可追溯性，常見處理策略：
-        - SCD Type 1：直接覆蓋舊數據，只保留最新的數據。
-            - pros: 簡單快速
-            - cons: 無法追蹤歷史紀錄
-        - SCD Type 2：為每次變更創建一條新記錄，保留變更歷史。
-            - pros: 可以追蹤歷史紀錄
-            - cons: 增加儲存空間 複雜度
-        - SCD Type 3：在原記錄中保留舊值和新值，用於部分歷史查詢。
-            - pros: 較少的儲存空間增加
-            - cons: 有限的歷史紀錄
-        - SCD Type 4: 歷史紀錄表
-            - pros: 有效率查找數據, 較少的儲存空間增加
-            - cons: 需要維護二個表
-                - address, address_history
-        - others
-            - users, user_extend_attr(json)
-        - https://learn.microsoft.com/zh-tw/fabric/data-warehouse/dimensional-modeling-dimension-tables#scd-type-3
+- SCD Type 1：直接覆蓋舊數據，只保留最新的數據。
+    - pros: 簡單快速
+    - cons: 無法追蹤歷史紀錄
+- SCD Type 2：為每次變更創建一條新記錄，保留變更歷史。
+    - pros: 可以追蹤歷史紀錄
+    - cons: 增加儲存空間 複雜度
+- SCD Type 3：在原記錄中保留舊值和新值，用於部分歷史查詢。
+    - pros: 較少的儲存空間增加
+    - cons: 有限的歷史紀錄
+- SCD Type 4: 歷史紀錄表
+    - pros: 有效率查找數據, 較少的儲存空間增加
+    - cons: 需要維護二個表
+        - address, address_history
+- others
+    - users, user_extend_attr(json)
+- https://learn.microsoft.com/zh-tw/fabric/data-warehouse/dimensional-modeling-dimension-tables#scd-type-3
 
 4. Change Data Capture (CDC)
 - OLTP 的設計目的是為了讓系統功能的運作順暢，並不是針對分析的需求，很多時候有留存變化的資料, -> 怎麼處理？
